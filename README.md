@@ -1,2 +1,24 @@
 # Maximum-and-minimum-finder
-Finding Maximum and Minimum of all element in an array.
+//Finding Maximum and Minimum of all element in an array.
+#include <stdio.h>
+int main() {
+int a[5],i,max,min;
+printf("Enter elements of a");
+for (i=0;i<5;i++) {
+scanf("%d",& a[i]);
+}
+min= a[0];
+max= a[0];
+for (i=0;i<5;i++)
+if (a[i]<min) {
+min= a[i];
+}
+if (a[i]>max) {
+max= a[i];
+}
+printf("Min element is:%d\n", min);
+printf("Max element is:%d\n", max);
+return 0;
+}
+
+
