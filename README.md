@@ -1,4 +1,4 @@
-# Maximum-and-minimum-finder.c
+# Maximum-and-minimum-finder.C
 //Finding Maximum and Minimum of all element in an array.
 #include <stdio.h>
 int main() {
